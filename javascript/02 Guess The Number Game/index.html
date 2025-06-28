@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess The Game</title>
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <h1>Guess The Game</h1> -->
-    <p>Guess the number between 1 and 100</p>
-    <input type="number" id="guessInput" placeholder="Enter your guess">
-    <button id="guessButton">Guess</button>
-    <p>Attempts: <span id="attempts">0</span></p>
-    <!-- <p id="result"></p> -->
-    
+
+
+    <div id="container">
+        <h1>Guessing</h1>
+        <div id="message_txt"></div>
+
+        <form id="userInput" name="userInput" method="post">
+            <input id="input_txt" name="limitedtextfield" type="text"  maxlength="3">
+            <br />
+            <button id="guess_btn" type="button" >?</button>
+            <br />
+            <button id="playAgain_btn" type="button" >&#x21BB;</button>
+        </form>
+        
+    </div>
+
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
