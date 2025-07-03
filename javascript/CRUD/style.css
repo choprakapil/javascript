@@ -1,0 +1,23 @@
+.card {
+  border-radius: 12px;
+}
+
+#enquiriesContainer .enquiry-item {
+  border: 1px solid #dee2e6;
+  padding: 15px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button.delete:hover {
+  background-color: #c82333;
+}

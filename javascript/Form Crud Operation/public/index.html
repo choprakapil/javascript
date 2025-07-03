@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kapil’s Form CRUD App</title>
+</head>
+<body>
+  <h1>📝 User Info Form</h1>
+
+  <form id="userForm">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Favorite Color:</label><br>
+    <select name="color">
+      <option value="Red">Red</option>
+      <option value="Green">Green</option>
+      <option value="Blue">Blue</option>
+    </select><br><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobbies" value="Reading"> Reading<br>
+    <input type="checkbox" name="hobbies" value="Dancing"> Dancing<br>
+    <input type="checkbox" name="hobbies" value="Gaming"> Gaming<br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male" checked> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    <label>Birthday:</label><br>
+    <input type="date" name="birthday"><br><br>
+
+    <button type="submit">💾 Save</button>
+  </form>
+
+  <hr>
+
+  <h2>📋 All Users:</h2>
+  <ul id="userList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
